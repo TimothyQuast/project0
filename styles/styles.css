@@ -2,4 +2,34 @@
   max-width: 480px;
 }
 
+em {
+  text-decoration: underline;
+}
+
+a {
+  color: #2c87f0;
+}
+
+a:hover, a:active, a:focus {
+  color: #c33;
+}
+
+.indent {
+  text-indent: 10px;
+}
+
+.pageLabel, .aboutLabel {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .tableResizeText {
+    font-size: 12px;
+  }
+
+  .h1ResizeText {
+    font-size: 30px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
