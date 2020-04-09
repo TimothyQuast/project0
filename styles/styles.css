@@ -1,9 +1,13 @@
+.wonderful, em {
+  text-decoration: underline;
+}
+
 #headshot {
   max-width: 480px;
 }
 
-em {
-  text-decoration: underline;
+.wonderful {
+  font-size: 17px;
 }
 
 a {
@@ -18,7 +22,11 @@ a:hover, a:active, a:focus {
   text-indent: 10px;
 }
 
-.pageLabel, .aboutLabel {
+.aboutLabel {
+  font-weight: bold;
+}
+
+div .pageLabel {
   font-weight: bold;
 }
 

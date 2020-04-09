@@ -1,13 +1,24 @@
+$linkColor:  #2c87f0;
+
+%awesome{
+  text-decoration: underline;
+}
+
 #headshot{
   max-width: 480px;
 }
 
 em{
-  text-decoration: underline;
+  @extend %awesome;
+}
+
+.wonderful{
+  @extend %awesome;
+  font-size: 17px;
 }
 
 a{
-  color: #2c87f0;
+  color: $linkColor;
 }
 
 a:hover, a:active, a:focus {
@@ -17,8 +28,15 @@ a:hover, a:active, a:focus {
 .indent {
   text-indent: 10px;
 }
-.pageLabel, .aboutLabel{
+
+.aboutLabel{
   font-weight: bold;
+}
+
+div{
+  .pageLabel{
+    font-weight: bold;
+  }
 }
 
 @media screen and (max-width: 600px) {
